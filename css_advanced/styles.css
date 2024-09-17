@@ -1,5 +1,8 @@
+body {
+    background-image: url(images/pic_1.jpg);;
+}
+
 header {
-    background-image: url(images/pic_1.jpg);
     background-size: cover;
     position: relative;
 }
