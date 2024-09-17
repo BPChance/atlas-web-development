@@ -1,13 +1,8 @@
 body {
-    background-image: url(images/pic_1.jpg);;
-}
-
-header {
-    background-size: cover;
-    position: relative;
-}
-
-.header-content {
+    background-image: url(images/pic_1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
 }
 
 .header-links {
@@ -103,4 +98,29 @@ header {
 
 .profile-desc {
     color: #FFFFFF;
+}
+
+.purple {
+    background-color: #C271FF;
+    color: #FFFFFF;
+    height: 392px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.purple-profile-name {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+
+.purple-profile-desc {
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    text-align: center;
+}
+
+.person-job {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
 }
