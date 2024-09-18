@@ -98,29 +98,110 @@ body {
 
 .profile-desc {
     color: #FFFFFF;
+    size: 16px;
 }
 
 .purple {
     background-color: #C271FF;
     color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
     height: 392px;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+}
+
+.purple-profile-img {
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+}
+
+.purple-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.purple-content div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
 }
 
 .purple-profile-name {
     font-family: 'Source Sans Pro', sans-serif;
-    text-align: center;
+    text-align: left;
+    margin: 5px 0;
+    font-weight: bold;
 }
 
 .purple-profile-desc {
     font-family: 'Source Sans Pro', sans-serif;
-    display: flex;
-    text-align: center;
+    text-align: left;
+    margin: 5px 0;
+    height: 68px;
 }
 
 .person-job {
     font-family: 'Source Sans Pro', sans-serif;
+    text-align: left;
+    margin: 5px 0;
+    font-style: italic;
+}
+
+.video-section {
     text-align: center;
+}
+
+.video-title {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.video-section-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.video-block {
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.video-block img {
+    height: 154px;
+    width: 255px;
+}
+
+.video-card-title {
+    font-family: 'Source Sans Pro', sans-serif;
+    size: 16px;
+    font-weight: 700;
+}
+
+.video-desc {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    color: #07162980;
+}
+
+.video-block div {
+}
+
+.rating-name {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.video-block img.Phillip {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.video-block p {
 }
