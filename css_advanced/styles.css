@@ -3,6 +3,8 @@ body {
 }
 
 .header {
+    display: flex;
+    flex-direction: column;
     background-image: url(images/pic_1.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -61,7 +63,6 @@ body {
     font-weight: 700;
     line-height: 150.84px;
     position: relative;
-    top: .7em;
 }
 
 .hero-text p {
@@ -167,25 +168,30 @@ body {
 .video-section {
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
-    display: flex;
-    height: 450px;
+    margin-top: 10%;
 }
 
 .video-title {
-    
+    font-weight: 300;
+    font-size: 32px;
 }
 
 .video-section-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .video-block {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .thumbnail {
     height: 154px;
     width: 255px;
+    object-fit: cover;
 }
 
 .video-card-title {
@@ -196,13 +202,23 @@ body {
 .video-desc {
     font-size: 14px;
     color: #07162980;
+    text-align: left
 }
 
-.video-block div {
+.video-block div:first-of-type{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.video-block div:last-of-type {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .rating-name {
-    
+    color: #C271FF;
 }
 
 .video-block img.Phillip {
@@ -212,6 +228,15 @@ body {
 }
 
 .video-block p {
+}
+
+.time {
+    color: #C271FF;
+}
+
+.popular {
+    color: #C271FF;
+    font-weight: 700;
 }
 
 .membership-section {
@@ -228,6 +253,7 @@ body {
 
 .membership-container {
     display: flex;
+    
 }
 
 .membership-card {
