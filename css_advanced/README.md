@@ -16,3 +16,6 @@ In this project, I recreated the Smile School webpage using a Figma file. This e
 ## Technologies Used
 - HTML
 - CSS
+
+## Smile School Link
+https://bpchance.github.io/atlas-web-development/css_advanced/index.html
