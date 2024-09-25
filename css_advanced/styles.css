@@ -98,6 +98,8 @@ body {
 
 .logo {
     margin-left: 10%;
+    position: relative;
+    top: 25px;
 }
 
 .register-btn {
