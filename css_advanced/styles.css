@@ -30,7 +30,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 15%; /* move up or down */
+    margin-bottom: 15%;
 }
 
 .hero-text h1 {
@@ -176,7 +176,7 @@ body {
 .video-title {
     font-weight: 300;
     font-size: 32px;
-    margin-bottom: 6%
+    margin-bottom: 6%;
 }
 
 .video-section-container {
@@ -259,7 +259,7 @@ body {
 .rating img {
     height: 15px;
     width: 15px;
-    margin-right: 7%
+    margin-right: 7%;
 }
 
 .rating-name {
@@ -332,6 +332,16 @@ body {
     margin-bottom: 4%;
 }
 
+.membership-btn {
+    box-shadow: 0px 2px 20px 0px #00000080;
+    width: 162px;
+    height: 44px;
+    background: #C271FF;
+    color: #FFFFFF;
+    border-radius: 22px;
+    border: none;
+}
+
 .membership-card {
     display: flex;
     flex-direction: column;
@@ -374,7 +384,7 @@ body {
 .faq-title {
     font-size: 60px;
     font-weight: 300;
-    text-align: center
+    text-align: center;
 }
 
 .question {
@@ -382,7 +392,7 @@ body {
     flex-direction: column;
     width: 49%;
     height: 60%;
-    margin: 5%
+    margin: 5%;
 }
 
 .question h2 {
@@ -392,7 +402,7 @@ body {
 
 .question p {
     color: #07162980;
-    font-size: 14px
+    font-size: 14px;
 }
 
 .footer {
